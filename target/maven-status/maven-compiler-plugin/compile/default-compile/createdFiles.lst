@@ -1,3 +1,4 @@
+com\research\resbackend\domain\Research.class
 com\research\resbackend\payload\request\LoginRequest.class
 com\research\resbackend\payload\request\SignupRequest.class
 com\research\resbackend\controller\AuthController.class
@@ -7,7 +8,6 @@ com\research\resbackend\domain\repository\UserRepository.class
 com\research\resbackend\domain\User.class
 com\research\resbackend\domain\ERole.class
 com\research\resbackend\payload\response\JwtResponse.class
-com\research\resbackend\domain\research.class
 com\research\resbackend\security\service\UserDetailsImpl.class
 com\research\resbackend\payload\response\MessageResponse.class
 com\research\resbackend\security\service\UserDetailsServiceImpl.class

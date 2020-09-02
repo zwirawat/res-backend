@@ -41,6 +41,20 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
+    @OneToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "user_res",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "res_id"))
+    private Set<Research> research = new HashSet<>();
+
+    public Set<Research> getResearch() {
+        return research;
+    }
+
+    public void setResearch(Set<Research> research) {
+        this.research = research;
+    }
+
     public User() {
     }
 
