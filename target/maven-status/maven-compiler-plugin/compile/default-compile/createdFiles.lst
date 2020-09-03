@@ -1,10 +1,13 @@
 com\research\resbackend\domain\repository\UserRepository.class
+com\research\resbackend\domain\Tutorial.class
 com\research\resbackend\domain\User.class
+com\research\resbackend\domain\repository\TutorialRepository.class
 com\research\resbackend\security\service\UserDetailsImpl.class
 com\research\resbackend\ResBackendApplication.class
 com\research\resbackend\security\jwt\AuthTokenFilter.class
 com\research\resbackend\config\UndertowConfig.class
 com\research\resbackend\config\LazyConfig.class
+com\research\resbackend\controller\TutorialController.class
 com\research\resbackend\domain\Research.class
 com\research\resbackend\payload\request\LoginRequest.class
 com\research\resbackend\payload\request\SignupRequest.class
